@@ -47,5 +47,6 @@ int main(int argc, char* argv[]) {
 
     cout << "Windows Defender has been disabled." << endl;
     cout << "Please restart your computer to take effect." << endl;
+    getchar();
     return 0;
 }
