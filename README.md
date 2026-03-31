@@ -1,25 +1,34 @@
 # WinDefenderKiller
-Windows Defender Killer | C++ Code Disabling Permanently Windows Defender using Registry Keys
 
-YouTube Video:
-https://youtu.be/67-rp3Y16k8
+## PermanentDisablefromRegistry
+C++ Code for Permanently Disabling Windows Defender via Registry Keys
 
-Let's compile it!
-
-![image](https://github.com/S12cybersecurity/WinDefenderKiller/assets/79543461/7e4f97e5-0d6e-4662-9935-2b61f5fc4a32)
-
-Command:
-
-└─# x86_64-w64-mingw32-g++ -O2 disableWinDef.cpp -o winDefKiller -I/usr/share/mingw-w64/include -L/usr/lib -s -ffunction-sections -fdata-sections -Wno-write-strings -fno-exceptions -fmerge-all-constants -static-libstdc++ -static-libgcc -fpermissive -Wnarrowing -fexceptions
-
-I execute it!
+Just compile and execute it!
 
 And when i restart it:
 
 ![image](https://github.com/S12cybersecurity/WinDefenderKiller/assets/79543461/2c410420-9ca4-4484-b0f1-cf547dfe1f7b)
 
-If i try to download mimikatz malicious binary:
+## BYOVDWindowsDefenderKiller
+This module implements a BYOVD (Bring Your Own Vulnerable Driver) technique to disable Windows Defender by continuously terminating its processes.
 
-![image](https://github.com/S12cybersecurity/WinDefenderKiller/assets/79543461/2f5e78b0-33f0-4012-a1d8-84ae8e26b6e7)
+A vulnerable signed driver is loaded to gain kernel-level access, allowing the program to repeatedly kill **MsMpEng.exe** services in a loop.
 
-Not detected by Windows Defender!
+### Driver
+https://github.com/DeathShotXD/0xKern3lCrush-Foreverday-BYOVD-CVE-2026-0828/blob/main/drivers/0xhashes.md
+
+## Registry + BYOVD
+This repository brings together two separate techniques to illustrate a combined approach for disabling Windows Defender more effectively.
+
+The registry-based method applies permanent configuration changes, but it is heavily detected and blocked by most antivirus solutions, including Defender itself. Because of this, running it directly is often unreliable.
+
+To address this, the BYOVD technique can be used beforehand. By loading a vulnerable driver and gaining kernel-level access, Defender-related processes are continuously terminated, reducing its ability to detect or block further actions.
+
+With Defender in this weakened state, the registry-based code can then be executed and disable in a permanent way the defender 
+
+**Workflow**
+- Use BYOVD to disrupt Defender at runtime (process termination loop)
+- Execute the registry-based method without interference
+
+⚠️ Disclaimer
+For educational and security research purposes only. Use in controlled environments.

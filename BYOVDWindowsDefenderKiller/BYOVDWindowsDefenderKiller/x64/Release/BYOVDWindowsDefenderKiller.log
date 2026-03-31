@@ -1,0 +1,22 @@
+﻿  BYOVDWindowsDefenderKiller.cpp
+C:\Users\s12de\Documents\Github\evasion\Products\WindowsDefender\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller.cpp(54,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'UINT64'
+      C:\Users\s12de\Documents\Github\evasion\Products\WindowsDefender\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller.cpp(54,11):
+      consider using '%lld' in the format string
+      C:\Users\s12de\Documents\Github\evasion\Products\WindowsDefender\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller.cpp(54,11):
+      consider using '%Id' in the format string
+      C:\Users\s12de\Documents\Github\evasion\Products\WindowsDefender\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller.cpp(54,11):
+      consider using '%I64d' in the format string
+  
+C:\Users\s12de\Documents\Github\evasion\Products\WindowsDefender\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller.cpp(57,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'UINT64'
+      C:\Users\s12de\Documents\Github\evasion\Products\WindowsDefender\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller.cpp(57,11):
+      consider using '%lld' in the format string
+      C:\Users\s12de\Documents\Github\evasion\Products\WindowsDefender\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller.cpp(57,11):
+      consider using '%Id' in the format string
+      C:\Users\s12de\Documents\Github\evasion\Products\WindowsDefender\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller.cpp(57,11):
+      consider using '%I64d' in the format string
+  
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 130 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  BYOVDWindowsDefenderKiller.vcxproj -> C:\Users\s12de\Documents\Github\evasion\Products\WindowsDefender\BYOVDWindowsDefenderKiller\x64\Release\BYOVDWindowsDefenderKiller.exe

@@ -1,0 +1,18 @@
+﻿  BYOVDWindowsDefenderKiller.cpp
+C:\Users\s12de\Documents\Github\evasion\Products\WindowsDefender\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller.cpp(54,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'UINT64'
+      C:\Users\s12de\Documents\Github\evasion\Products\WindowsDefender\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller.cpp(54,11):
+      consider using '%lld' in the format string
+      C:\Users\s12de\Documents\Github\evasion\Products\WindowsDefender\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller.cpp(54,11):
+      consider using '%Id' in the format string
+      C:\Users\s12de\Documents\Github\evasion\Products\WindowsDefender\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller.cpp(54,11):
+      consider using '%I64d' in the format string
+  
+C:\Users\s12de\Documents\Github\evasion\Products\WindowsDefender\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller.cpp(57,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'UINT64'
+      C:\Users\s12de\Documents\Github\evasion\Products\WindowsDefender\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller.cpp(57,11):
+      consider using '%lld' in the format string
+      C:\Users\s12de\Documents\Github\evasion\Products\WindowsDefender\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller.cpp(57,11):
+      consider using '%Id' in the format string
+      C:\Users\s12de\Documents\Github\evasion\Products\WindowsDefender\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller\BYOVDWindowsDefenderKiller.cpp(57,11):
+      consider using '%I64d' in the format string
+  
+  BYOVDWindowsDefenderKiller.vcxproj -> C:\Users\s12de\Documents\Github\evasion\Products\WindowsDefender\BYOVDWindowsDefenderKiller\x64\Debug\BYOVDWindowsDefenderKiller.exe
