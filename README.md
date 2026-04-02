@@ -17,7 +17,7 @@ A vulnerable signed driver is loaded to gain kernel-level access, allowing the p
 ### Driver
 https://github.com/DeathShotXD/0xKern3lCrush-Foreverday-BYOVD-CVE-2026-0828/blob/main/drivers/0xhashes.md
 
-## Registry + BYOVD
+## Registry + BYOVD (CombinedWindowsDefKiller)
 This repository brings together two separate techniques to illustrate a combined approach for disabling Windows Defender more effectively.
 
 The registry-based method applies permanent configuration changes, but it is heavily detected and blocked by most antivirus solutions, including Defender itself. Because of this, running it directly is often unreliable.
