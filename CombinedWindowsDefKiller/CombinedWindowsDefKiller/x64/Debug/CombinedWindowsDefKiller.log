@@ -1,0 +1,18 @@
+﻿  CombinedWindowsDefKiller.cpp
+C:\Users\s12de\Documents\WinDefenderKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller.cpp(56,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'UINT64'
+      C:\Users\s12de\Documents\WinDefenderKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller.cpp(56,11):
+      consider using '%lld' in the format string
+      C:\Users\s12de\Documents\WinDefenderKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller.cpp(56,11):
+      consider using '%Id' in the format string
+      C:\Users\s12de\Documents\WinDefenderKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller.cpp(56,11):
+      consider using '%I64d' in the format string
+  
+C:\Users\s12de\Documents\WinDefenderKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller.cpp(81,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'UINT64'
+      C:\Users\s12de\Documents\WinDefenderKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller.cpp(81,11):
+      consider using '%lld' in the format string
+      C:\Users\s12de\Documents\WinDefenderKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller.cpp(81,11):
+      consider using '%Id' in the format string
+      C:\Users\s12de\Documents\WinDefenderKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller.cpp(81,11):
+      consider using '%I64d' in the format string
+  
+  CombinedWindowsDefKiller.vcxproj -> C:\Users\s12de\Documents\WinDefenderKiller\CombinedWindowsDefKiller\x64\Debug\CombinedWindowsDefKiller.exe

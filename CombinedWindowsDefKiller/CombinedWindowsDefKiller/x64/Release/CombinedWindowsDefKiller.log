@@ -1,0 +1,23 @@
+﻿  CombinedWindowsDefKiller.cpp
+C:\Users\s12de\Documents\WinDefenderKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller.cpp(61,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'UINT64'
+      C:\Users\s12de\Documents\WinDefenderKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller.cpp(61,11):
+      consider using '%lld' in the format string
+      C:\Users\s12de\Documents\WinDefenderKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller.cpp(61,11):
+      consider using '%Id' in the format string
+      C:\Users\s12de\Documents\WinDefenderKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller.cpp(61,11):
+      consider using '%I64d' in the format string
+  
+C:\Users\s12de\Documents\WinDefenderKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller.cpp(163,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'UINT64'
+      C:\Users\s12de\Documents\WinDefenderKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller.cpp(163,11):
+      consider using '%lld' in the format string
+      C:\Users\s12de\Documents\WinDefenderKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller.cpp(163,11):
+      consider using '%Id' in the format string
+      C:\Users\s12de\Documents\WinDefenderKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller\CombinedWindowsDefKiller.cpp(163,11):
+      consider using '%I64d' in the format string
+  
+  Generating code
+  0 of 232 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  CombinedWindowsDefKiller.vcxproj -> C:\Users\s12de\Documents\WinDefenderKiller\CombinedWindowsDefKiller\x64\Release\CombinedWindowsDefKiller.exe

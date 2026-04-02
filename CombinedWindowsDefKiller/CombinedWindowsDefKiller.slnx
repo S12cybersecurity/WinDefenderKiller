@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="CombinedWindowsDefKiller/CombinedWindowsDefKiller.vcxproj" Id="b0711301-f580-4003-8f13-a9dc94129c86" />
+</Solution>
